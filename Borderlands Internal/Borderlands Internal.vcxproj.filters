@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Borderlands">
+      <UniqueIdentifier>{12e7a8c0-862b-42b0-9c26-4eab681013fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{35b5974c-2e80-40e9-a71b-f2f6063402b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX9">
+      <UniqueIdentifier>{f09003ee-8148-404c-9fdd-0e8a63fc9b4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX9\Hooking">
+      <UniqueIdentifier>{4dbf7bed-33b2-435a-9cb8-c803705deeb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX9\Draw">
+      <UniqueIdentifier>{eb2ef672-c5d8-487b-8d07-d74f99f38e91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Borderlands\Systems">
+      <UniqueIdentifier>{2ad13a10-8d36-4ec2-a6c4-2fa0f3fe215c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Borderlands\Systems\Golden Keys">
+      <UniqueIdentifier>{05e59318-ba14-4e23-81f4-2cf88d7abbd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{f00e1990-93a6-4a6e-9974-f087af993a94}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Borderlands.h">
+      <Filter>Borderlands</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX.h">
+      <Filter>DirectX9\Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooking.h">
+      <Filter>DirectX9\Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="IncDX9.h">
+      <Filter>DirectX9\Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawing.h">
+      <Filter>DirectX9\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx9.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>Borderlands</Filter>
+    </ClInclude>
+    <ClInclude Include="GoldenKeys.h">
+      <Filter>Borderlands\Systems\Golden Keys</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Borderlands.cpp">
+      <Filter>Borderlands</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX.cpp">
+      <Filter>DirectX9\Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking.cpp">
+      <Filter>DirectX9\Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawing.cpp">
+      <Filter>DirectX9\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx9.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="GoldenKeys.cpp">
+      <Filter>Borderlands\Systems\Golden Keys</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
